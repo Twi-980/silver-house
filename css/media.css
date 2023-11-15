@@ -9,11 +9,52 @@
         row-gap: 20px;
     }
 
+    .cards__info-title {
+        font-size: 18px;
+    }
+
+    .cards__info-desc {
+        font-size: 14px;
+    }
+
+    .cards__contacts-title {
+        font-size: 18px;
+    }
+
+    .cards__contacts-desc {
+        font-size: 14px;
+    }
+
+    .span1 {
+        font-size: 14px;
+    }
+
+    .span2 {
+        font-size: 14px;
+    }
+
 }
 @media(max-width: 992px) {
     .container {
         max-width: 720px;
     }
+
+    .cards__info {
+        padding: 45px 85px 45px 35px;
+    }
+
+    .cards__contacts {
+        padding: 45px 20px 0px 35px;
+    }
+
+    .span1 {
+        margin-top: 20px;
+    }
+    
+    .span2 {
+        margin-top: 20px;
+    }
+
 }
 @media(max-width: 768px) {
     .container {
@@ -55,7 +96,7 @@
     }
 
     .banner__img {
-        height: 60vh;
+        height: 40vh;
     }
 
 }

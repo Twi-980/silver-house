@@ -74,13 +74,17 @@ ul {
 }
 
 .cards__info-desc {
-    min-width: 595px;
+    max-width: 595px;
     width: 100%;
     color: #808080; 
     font-size: 16px; 
     font-weight: 400; 
     line-height: 27px;
     font-family: 'Roboto';
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 13;
+    overflow: hidden;
 }
 
 .cards__contacts {
@@ -100,7 +104,7 @@ ul {
 }
 
 .cards__contacts-desc {
-    min-width: 286px;
+    max-width: 286px;
     width: 100%;
     color: #808080; 
     font-size: 16px; 
