@@ -20,3 +20,141 @@ ul {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.header__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__logo {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+.header__list {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.header__link {
+    color: #8C8A8A; 
+    font-size: 18px; 
+    font-weight: 400; 
+    line-height: 21px;
+    font-family: 'Roboto';
+}
+
+.banner__img {
+    width: 100%;
+    height: 100vh;
+}
+
+.cards {
+    display: flex;
+    margin-top: 30px;
+    column-gap: 30px;
+}
+
+.cards__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    background: #F0F0F0;
+    padding: 50px 95px 50px 40px;
+}
+
+.cards__info-title {
+    color: #4581B7; 
+    font-size: 20px; 
+    font-weight: 700; 
+    line-height: 23px;
+    font-family: 'Roboto';
+}
+
+.cards__info-desc {
+    min-width: 595px;
+    width: 100%;
+    color: #808080; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 27px;
+    font-family: 'Roboto';
+}
+
+.cards__contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    background: #F0F0F0;
+    padding: 50px 24px 159px 40px;
+}
+
+.cards__contacts-title {
+    color: #4581B7; 
+    font-size: 20px; 
+    font-weight: 700;
+    line-height: 23px;
+    font-family: 'Roboto';
+}
+
+.cards__contacts-desc {
+    min-width: 286px;
+    width: 100%;
+    color: #808080; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 27px; 
+    font-family: 'Roboto';
+}
+
+.span1 {
+    color: #808080; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 100%; 
+    margin-top: 40px;
+    font-family: 'Roboto';
+}
+
+.span2 {
+    color: #808080; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 100%; 
+    margin-top: 30px;
+    font-family: 'Roboto';
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    margin-top: 30px;
+    background: #F0F0F0;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: end;
+}
+
+.footer__link:nth-child(1) {
+    color: #808080; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 19px;
+    font-family: 'Roboto';
+}
+
+.footer__link:nth-child(2) {
+    color: #808080; 
+    font-size: 25px; 
+    font-weight: 700; 
+    line-height: 29px;
+    font-family: 'Roboto';
+}
