@@ -33,6 +33,17 @@
         font-size: 14px;
     }
 
+    .footer__link:nth-child(1) {
+        font-size: 14px;
+    }
+
+    .footer__link:nth-child(2) {
+        font-size: 23px;
+    }
+
+    .footer__logo {
+        width: 100px;
+    }
 }
 @media(max-width: 992px) {
     .container {
@@ -54,6 +65,10 @@
     .span2 {
         margin-top: 20px;
     }
+    
+    .footer__logo {
+        width: 90px;
+    }
 
 }
 @media(max-width: 768px) {
@@ -61,8 +76,39 @@
         max-width: 540px;
     }
 
-    .banner__img {
-        height: 80vh;
+    .header__logo {
+        width: 110px;
+    }
+
+    .header__link {
+        font-size: 16px;
+    }
+
+    .cards {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .span1 {
+        margin-bottom: 0px;
+
+    }
+
+    .span2 {
+        margin-top: 0px;
+        padding-bottom: 45px;
+    }
+
+    .footer__logo {
+        width: 80px;
+    }
+
+    .footer__link:nth-child(1) {
+        font-size: 14px;
+    }
+
+    .footer__link:nth-child(2) {
+        font-size: 21px;
     }
 }
 @media(max-width: 576px) {
@@ -71,9 +117,42 @@
     }
 
     .header__logo {
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
 
+
+    .footer__link:nth-child(1) {
+        font-size: 14px;
+    }
+
+    .footer__link:nth-child(2) {
+        font-size: 19px;
+    }
+
+    .footer__logo {
+        width: 75px;
+    }
+
+}
+
+@media(max-width: 450px) {
+    .footer {
+        padding: 15px 10px;
+        column-gap: 30px;
+    }
+
+    .footer__list {
+        align-items: start;
+    }
+
+    
+    .footer__link:nth-child(1) {
+        font-size: 12px;
+    }
+
+    .footer__link:nth-child(2) {
+        font-size: 17px;
+    }
 
 }
 
@@ -85,7 +164,7 @@
     .header__logo-img{
         width: 80px;
     }
-
+    
     .header__list {
         margin-bottom: 20px;
         row-gap: 15px;
@@ -93,10 +172,15 @@
 
     .header__link {
         font-size: 13px;
+    } 
+
+    .footer__logo {
+        margin-left: 20px;
     }
 
-    .banner__img {
-        height: 40vh;
+    .footer__list {
+        row-gap: 5px;
     }
 
+    
 }
